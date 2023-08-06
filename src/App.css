@@ -1,6 +1,5 @@
 .main-area{
   background-image:url('./Component/image/banner.png') ;
-
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -8,10 +7,14 @@
 
 
 }
+.banner{
+  margin: 0 15%;
+}
 
 .banner-image{
-  width: 900px;
-  height: 600px;
+  width:740px;
+height: 627px;
+  
   
 }
 .text{
@@ -24,13 +27,8 @@
   border: 2px solid red;
   z-index: 99;
 }
-
-.az{
-  padding-left: 20px;
-}
-
 nav{
-  margin: 0 10%;
+  margin: 0 15%;
 
 }
 nav img{

@@ -34,9 +34,9 @@ const Header = () => {
           </form>
         </div>
       </nav>
-      <div >
-      <div className='row container az'>
-        <div className='col-lg-6 '>
+      <div className='banner'>
+      <div className='row p-3 mb-5 '>
+        <div className='col-lg-6 mt-5'>
           <h1>Your Global Commerce Partner, Engineered for Peak Performance</h1>
           <span>Launch your eye-catching online store with ease, attract and convert more customers than ever before.</span>
           <div className='mt-5 mb-5'> <button type="button" class="btn btn-primary btn-lg py-3">Start 7-days free trial</button></div>
@@ -53,7 +53,7 @@ const Header = () => {
 
         </div>
         <div className='col-lg-6  '>
-          <img src='https://mydukaan.io/_next/static/images/hero_image_shadow-new-ef38d2da7a63bb815162083389e05f32.webp ' className='banner-image'></img>
+          <img src='https://mydukaan.io/_next/static/images/hero_image_shadow-new-ef38d2da7a63bb815162083389e05f32.webp  ' className='banner-image ' ></img>
       </div>
       </div>
      </div>
