@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='main-area'>
-      <nav class="navbar navbar-expand-lg  text-light container ">
+      <nav class="navbar navbar-expand-lg  text-light  ">
         <a class="navbar-brand" href="#">
           <img src="https://mydukaan.io/_next/static/images/strech-dukaan-logo-e3a853192b61931f04e7bc49db181355.svg" alt="" width="130" height="130" className="d-inline-block align-text-top mr-5" />
 
@@ -34,8 +34,8 @@ const Header = () => {
           </form>
         </div>
       </nav>
-      <div className='container'>
-      <div className='row '>
+      <div >
+      <div className='row container az'>
         <div className='col-lg-6 '>
           <h1>Your Global Commerce Partner, Engineered for Peak Performance</h1>
           <span>Launch your eye-catching online store with ease, attract and convert more customers than ever before.</span>

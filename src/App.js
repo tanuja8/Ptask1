@@ -8,8 +8,8 @@ import Fasion from './Component/Fasion';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Fasion></Fasion>
+      <Header/>
+      <Fasion/>
     </div>
   );
 }
