@@ -52,7 +52,7 @@ const Header = () => {
           </div>
 
         </div>
-        <div className='col-lg-6  '>
+        <div className='col-lg-6 '>
           <img src='https://mydukaan.io/_next/static/images/hero_image_shadow-new-ef38d2da7a63bb815162083389e05f32.webp  ' className='banner-image ' ></img>
       </div>
       </div>

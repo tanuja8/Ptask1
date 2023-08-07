@@ -17,16 +17,7 @@ height: 627px;
   
   
 }
-.text{
-  background-color: black;
-  color: red;
-  
-  font-size: 100px;
-}
-.fasionContainer{
-  border: 2px solid red;
-  z-index: 99;
-}
+
 nav{
   margin: 0 15%;
 
@@ -42,9 +33,43 @@ nav ul li a{
 
 /* slide component design */
 
-.slide{
-  background-color: black;
-  padding: 40px;
-  color: white;
-  margin: 50px 0;
+@keyframes slide {
+  from{
+    transform: translateX(0);
+  }
+ to{
+  transform: translateX(-100%);
+ } 
+}
+.logo{
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 65px 0 ;
+  background: black;
+}
+
+.logo:hover .logo-slide{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+/* .logo-slide{
+  display: inline-block;
+
+  animation: 35s slide infinite linear;
+} */
+.logo-slide img{
+  height: 50px;
+  margin: 0 30px;
+}
+
+.logo-slide:nth-child(1) {
+  display: inline-block;
+
+  animation: 35s slide infinite linear;
+}
+
+.logo-slide:nth-child(2) {
+  display: inline-block;
+
+  animation: 35s slide infinite linear;
 }
