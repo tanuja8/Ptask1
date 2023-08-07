@@ -9,11 +9,16 @@
 }
 .banner{
   margin: 0 15%;
+  display: flex;
+  align-items: center;
+  width: 85%;
+  overflow-x: hidden;
 }
 
 .banner-image{
-  width:740px;
+  width:757px;
 height: 627px;
+object-fit: cover;
   
   
 }

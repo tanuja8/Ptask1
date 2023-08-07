@@ -1,11 +1,11 @@
 import React from 'react'
-
+import logo from "./image/logo.svg"
 const Header = () => {
   return (
     <div className='main-area'>
       <nav class="navbar navbar-expand-lg  text-light  ">
         <a class="navbar-brand" href="#">
-          <img src="https://mydukaan.io/_next/static/images/strech-dukaan-logo-e3a853192b61931f04e7bc49db181355.svg" alt="" width="130" height="130" className="d-inline-block align-text-top mr-5" />
+          <img src={logo} alt="" width="130" height="130" className="d-inline-block align-text-top mr-5" />
 
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
