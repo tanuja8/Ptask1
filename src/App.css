@@ -46,17 +46,13 @@ nav ul li a{
   white-space: nowrap;
   padding: 65px 0 ;
   background: black;
+  margin-bottom: 50px;
 }
 
 .logo:hover .logo-slide{
   animation-play-state: paused;
   cursor: pointer;
 }
-/* .logo-slide{
-  display: inline-block;
-
-  animation: 35s slide infinite linear;
-} */
 .logo-slide img{
   height: 50px;
   margin: 0 30px;
@@ -72,4 +68,28 @@ nav ul li a{
   display: inline-block;
 
   animation: 35s slide infinite linear;
+}
+
+/* store element design */
+
+.store{
+  margin: 20px 30%;
+  padding: 50px;
+  text-align: center;
+  
+}
+.store h2{
+  font-weight: bolder;
+  
+  
+}
+
+.star ul li{
+  list-style: none;
+  background-image: url('https://mydukaan.io/_next/static/media/star-purple.3a0f99650c0ab639cf633cf46e9a29ae.svg');
+
+  background-repeat: no-repeat;
+}
+.store-img{
+  width: 550px;
 }
