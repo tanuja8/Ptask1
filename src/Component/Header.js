@@ -5,7 +5,7 @@ const Header = () => {
     <div className='main-area'>
       <nav class="navbar navbar-expand-lg  text-light  ">
         <a class="navbar-brand" href="#">
-          <img src={logo} alt="" width="130" height="130" className="d-inline-block align-text-top mr-5" />
+          <img src={logo} alt="" className="d-inline-block align-text-top mr-5" />
 
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

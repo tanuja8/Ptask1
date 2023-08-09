@@ -1,5 +1,5 @@
-.main-area{
-  background-image:url('./Component/image/banner.png') ;
+.main-area {
+  background-image: url('./Component/image/banner.png');
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -7,31 +7,44 @@
 
 
 }
-.banner{
-  margin: 0 15%;
+
+.banner {
+  margin: 0 12%;
   display: flex;
   align-items: center;
   width: 85%;
   overflow-x: hidden;
 }
 
-.banner-image{
-  width:757px;
-height: 627px;
-object-fit: cover;
-  
-  
+.banner h1 {
+  font-size: 44px;
+  font-weight: 800;
 }
 
-nav{
+span {
+  font-size: 20px;
+  color: rgb(83, 82, 82);
+}
+
+.banner-image {
+  width: 757px;
+  height: 627px;
+  object-fit: cover;
+
+
+}
+
+nav {
   margin: 0 15%;
 
 }
-nav img{
+
+nav img {
   height: 80px;
-  width: 100px;
+  width: 155px;
 }
-nav ul li a{
+
+nav ul li a {
   font-size: 18px;
   color: black;
 }
@@ -39,26 +52,29 @@ nav ul li a{
 /* slide component design */
 
 @keyframes slide {
-  from{
+  from {
     transform: translateX(0);
   }
- to{
-  transform: translateX(-100%);
- } 
+
+  to {
+    transform: translateX(-100%);
+  }
 }
-.logo{
+
+.logo {
   overflow: hidden;
   white-space: nowrap;
-  padding: 65px 0 ;
+  padding: 65px 0;
   background: black;
   margin-bottom: 50px;
 }
 
-.logo:hover .logo-slide{
+.logo:hover .logo-slide {
   animation-play-state: paused;
   cursor: pointer;
 }
-.logo-slide img{
+
+.logo-slide img {
   height: 50px;
   margin: 0 30px;
 }
@@ -77,24 +93,88 @@ nav ul li a{
 
 /* store element design */
 
-.store{
+.store {
   margin: 20px 30%;
   padding: 50px;
   text-align: center;
-  
-}
-.store h2{
-  font-weight: bolder;
-  
-  
+
 }
 
-.star ul li{
+.store h2 {
+  font-weight: bolder;
+
+
+}
+
+.star ul li {
   list-style: none;
   background-image: url('https://mydukaan.io/_next/static/media/star-purple.3a0f99650c0ab639cf633cf46e9a29ae.svg');
 
   background-repeat: no-repeat;
 }
-.store-img{
+
+.store-img {
   width: 550px;
+}
+
+/* Tool component css design */
+/* .tool-banner{
+  background-color: rgb(254, 236, 241);
+}
+.tool-banner h2{
+  font-size: 35px;
+    font-weight: 700;
+}
+.tool-banner p {
+  font-size: 22px;
+}
+.tool-row{
+  display: flex;
+}
+.tool-box{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: white;
+} */
+
+.tool-banner {
+  background-color: rgb(254, 236, 241);
+  ;
+}
+
+.tool-banner h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.tool-banner p {
+  font-size: 22px;
+}
+
+.text {
+  text-align: center;
+  align-items: center;
+
+}
+
+.tool-area {
+  width: 68%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 155px;
+  padding: 15px 0;
+}
+
+.tool-box {
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  height: 250px;
+  margin-inline: 25px;
+  border-radius: 10px;
+  background-color: white;
 }
