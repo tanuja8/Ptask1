@@ -7,13 +7,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Slide from './Component/Slide';
 import Store from './Component/Store';
 import Tool from './Component/Tool';
+import Product from './Component/Product';
 function App() {
   return (
     <div className="App">
-      <Header/>
-    <Slide/>
-    <Store/>
-    <Tool/>
+      <Header />
+      <Slide />
+      <Store />
+      <Tool />
+      <Product/>
     </div>
   );
 }

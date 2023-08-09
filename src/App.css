@@ -5,14 +5,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-
 }
 
 .banner {
   margin: 0 12%;
   display: flex;
   align-items: center;
-  width: 85%;
+  width: 88%;
   overflow-x: hidden;
 }
 
@@ -142,7 +141,7 @@ nav ul li a {
 } */
 
 .tool-banner {
-  background-color: rgb(254, 236, 241);
+  background-color: rgb(249, 241, 243);
   ;
 }
 
@@ -177,4 +176,29 @@ nav ul li a {
   margin-inline: 25px;
   border-radius: 10px;
   background-color: white;
+}
+
+/* Product component css design */
+.product-area h2 {
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-top:50px ;
+}
+
+.product-image {
+  display: flex;
+}
+
+.product-image img {
+  width: 350px;
+  height: 490px;
+  border-radius: 10px;
+  
+}
+.product-btn{
+  text-align: center;
+  align-items: center;
+  padding: 80px;
 }
