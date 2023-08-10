@@ -2,9 +2,12 @@ import React from 'react'
 import two from "./image/two.svg"
 import three from "./image/three.svg"
 import five from "./image/five.svg"
-import seven from  "./image/seven.svg"
-import nine from  "./image/nine.svg"
-import ten from  "./image/ten.svg"
+import seven from "./image/seven.svg"
+import nine from "./image/nine.svg"
+import ten from "./image/ten.svg"
+import twelve from "./image/twelve.svg"
+import thirten from "./image/thirten.svg"
+import fourten from "./image/fourten.svg"
 
 
 const Pluging = () => {
@@ -49,16 +52,16 @@ const Pluging = () => {
                         <img src={ten} width="80px" height="80px" />
                     </li>
                     <li className='eleven'>
-                        <img src='	https://mydukaan.io/_next/static/images/facebook-53eabd0b00600c84de9497021eaa1ba7.svg' width="80px" height="80px" />
+                        <img src='https://mydukaan.io/_next/static/images/trusted-606fe713bd9f3938e49e2a0d1d8825d3.svg' width="80px" height="80px" />
                     </li>
                     <li className='twelve'>
-                        <img src='	https://mydukaan.io/_next/static/images/facebook-53eabd0b00600c84de9497021eaa1ba7.svg' width="80px" height="80px" />
+                        <img src={twelve} width="80px" height="80px" />
                     </li>
                     <li className='thirten'>
-                        <img src='	https://mydukaan.io/_next/static/images/facebook-53eabd0b00600c84de9497021eaa1ba7.svg' width="80px" height="80px" />
+                        <img src={thirten} width="80px" height="80px" />
                     </li>
                     <li className='fourten'>
-                        <img src='	https://mydukaan.io/_next/static/images/facebook-53eabd0b00600c84de9497021eaa1ba7.svg' width="80px" height="80px" />
+                        <img src={fourten} width="80px" height="80px" />
                     </li>
                 </ul>
             </div>
