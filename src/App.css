@@ -202,3 +202,78 @@ nav ul li a {
   align-items: center;
   padding: 80px;
 }
+/* pluging component css design */
+
+.home-pluging ul{
+  display: flex;
+}
+.home-pluging ul li{
+  list-style: none;
+}
+.home-pluging ul li img{
+  border-radius: 4px;
+}
+.one{
+  margin-left: 0;
+  padding-right: 15px;
+  margin-top:60px ;
+  overflow-x: hidden;
+}
+.two{
+  padding: 0 15px;
+  margin-top: 45px;
+  position: relative;
+}
+.three{
+  padding: 0 15px;
+  margin-top: 25px;
+  position: relative;
+}
+.four{
+  padding: 0 15px;
+  margin-top: 0;
+}
+.five{
+  margin-top: 15px;
+  padding: 0 15px;
+  position: relative;
+}
+.sixth{
+  margin-top: 40px;
+  padding: 0 15px;
+}
+.seven{
+  margin-top: 75px;
+  padding: 0 15px;
+}
+.eight{
+
+    margin-top: 75px;
+    padding: 0 15px;
+}
+.nine{
+  margin-top: 40px;
+  padding: 0 15px;
+}
+.ten{
+  margin-top: 15px;
+  padding: 0 15px;
+}
+.eleven{
+  margin-top: 0px;
+  padding: 0 15px;
+}
+.twelve{
+  
+    margin-top: 25px;
+    padding: 0 15px;
+  
+}
+.thirten{
+    margin-top: 45px;
+    padding: 0 15px;
+}
+.fourten{
+  margin-top: 60px;
+  padding: 0 0 0 15px;
+}

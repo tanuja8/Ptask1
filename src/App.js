@@ -8,6 +8,7 @@ import Slide from './Component/Slide';
 import Store from './Component/Store';
 import Tool from './Component/Tool';
 import Product from './Component/Product';
+import Pluging from './Component/Pluging';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Store />
       <Tool />
       <Product/>
+      <Pluging/>
     </div>
   );
 }
